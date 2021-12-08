@@ -1,11 +1,14 @@
 import React from 'react';
+import Counter from './components/Counter';
 
 function App() {
-  let likes = 0;
+//const [value, setValue] = useState('Текст в инпуте')
+
+  
   return (
-    <div className = "App">
-    <button onClick={() => likes +=1} >Increment</button>
-    <button>Decrement</button>   
+    <div className="App">
+      <Counter/>
+      
     </div>
   );
 }
